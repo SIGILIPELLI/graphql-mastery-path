@@ -1,0 +1,113 @@
+site_name: GraphQL Mastery Path
+site_description: A structured GraphQL course from first query to federated production graph — schema design, resolvers, DataLoader and the N+1 problem, pagination, auth, subscriptions, security and federation — with every example run for real.
+site_url: https://sigilipelli.github.io/graphql-mastery-path/
+repo_url: https://github.com/sigilipelli/graphql-mastery-path
+repo_name: graphql-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What GraphQL Is: One Endpoint, a Typed Schema, Client-Shaped Responses": level-1/01-what-graphql-is.md
+      - "02 · Your First Schema and Query with graphql-js": level-1/02-first-schema.md
+      - "03 · The Type System: Scalars, Objects, Lists, Non-Null & Enums": level-1/03-type-system.md
+      - "04 · Writing Queries: Arguments, Aliases, Fragments, Variables & Directives": level-1/04-query-language.md
+      - "05 · Resolvers: parent, args, context & info": level-1/05-resolvers.md
+      - "06 · Mutations and Input Types": level-1/06-mutations-inputs.md
+      - "07 · Serving GraphQL over HTTP with Apollo Server": level-1/07-apollo-server-http.md
+      - "08 · Errors, Partial Data & Null Propagation": level-1/08-errors.md
+      - "09 · Introspection, SDL & Tooling": level-1/09-introspection-tooling.md
+      - "10 · Project — A Library Catalog API with Tests": level-1/10-project-library-api.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Schema Design: Nullability, Naming & Client-Driven Shapes": level-2/01-schema-design.md
+      - "02 · Interfaces and Unions": level-2/02-interfaces-unions.md
+      - "03 · Custom Scalars": level-2/03-custom-scalars.md
+      - "04 · Connecting a Database: SQLite & Per-Request Context": level-2/04-database-context.md
+      - "05 · The N+1 Problem: Seeing and Counting It": level-2/05-n-plus-one.md
+      - "06 · DataLoader: Batching & Per-Request Caching": level-2/06-dataloader.md
+      - "07 · Pagination: Offsets, Cursors & Connections": level-2/07-pagination.md
+      - "08 · Mutation Design: Payloads & Errors as Data": level-2/08-mutation-design.md
+      - "09 · Testing a GraphQL Server": level-2/09-testing.md
+      - "10 · Project — A Bookstore API on SQLite": level-2/10-project-bookstore.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Authentication: Tokens and Context": level-3/01-authentication.md
+      - "02 · Authorization: Field, Object & Role Rules": level-3/02-authorization.md
+      - "03 · Custom Schema Directives": level-3/03-directives.md
+      - "04 · Subscriptions over WebSockets": level-3/04-subscriptions.md
+      - "05 · Securing a Public Graph: Depth, Cost, Aliases & Introspection": level-3/05-security-limits.md
+      - "06 · Caching & Persisted Queries": level-3/06-caching-persisted-queries.md
+      - "07 · Clients: fetch, Apollo Client & the Normalized Cache": level-3/07-apollo-client-cache.md
+      - "08 · Type Safety with GraphQL Code Generator": level-3/08-codegen.md
+      - "09 · GraphQL over HTTP in Depth: Status Codes, CSRF & Uploads": level-3/09-graphql-over-http.md
+      - "10 · Project — A Real-Time Task Board with Auth": level-3/10-project-task-board.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Inside graphql-js: Parse, Validate, Execute": level-4/01-execution-internals.md
+      - "02 · Server Plugins, Tracing & Performance": level-4/02-plugins-performance.md
+      - "03 · Federation Concepts: Subgraphs, Entities & @key": level-4/03-federation-concepts.md
+      - "04 · Running a Federated Graph Locally": level-4/04-federation-gateway.md
+      - "05 · Schema Evolution & Breaking-Change Detection": level-4/05-schema-evolution.md
+      - "06 · Errors, Masking & Logging in Production": level-4/06-production-errors.md
+      - "07 · Code-First Schemas: graphql-js Types & Strawberry": level-4/07-code-first.md
+      - "08 · Beyond Apollo Server: GraphQL Yoga & graphql-js 17": level-4/08-yoga-graphql17.md
+      - "09 · Architecture Review: When GraphQL Fits and When It Doesn't": level-4/09-architecture-review.md
+      - "10 · Capstone — A Federated Storefront Graph": level-4/10-capstone.md
