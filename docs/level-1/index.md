@@ -34,10 +34,10 @@ Three ideas carry this level:
 ## What you need before starting
 
 - **JavaScript and Node.js basics**: modules, `async`/`await`, objects and arrays. The
-  [JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) and
-  [Node.js Mastery Path](https://sigilipelli.github.io/nodejs-mastery-path/) cover them.
+  [JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/) and
+  [Node.js Mastery Path](https://learnmasterypath.com/nodejs-mastery-path/) cover them.
 - **HTTP and JSON**: methods, headers, status codes. If REST is familiar, you're ready; the
-  [REST API Mastery Path](https://sigilipelli.github.io/rest-api-mastery-path/) is a good companion.
+  [REST API Mastery Path](https://learnmasterypath.com/rest-api-mastery-path/) is a good companion.
 - Node.js 22 or newer and `npm`.
 
 ## How the examples were checked

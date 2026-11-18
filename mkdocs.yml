@@ -1,6 +1,6 @@
 site_name: GraphQL Mastery Path
 site_description: A structured GraphQL course from first query to federated production graph — schema design, resolvers, DataLoader and the N+1 problem, pagination, auth, subscriptions, security and federation — with every example run for real.
-site_url: https://sigilipelli.github.io/graphql-mastery-path/
+site_url: https://learnmasterypath.com/graphql-mastery-path/
 repo_url: https://github.com/sigilipelli/graphql-mastery-path
 repo_name: graphql-mastery-path
 

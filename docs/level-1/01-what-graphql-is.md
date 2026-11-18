@@ -194,7 +194,7 @@ Costs you take on:
   errors for some fields ([lesson 08](08-errors.md)).
 - **More server machinery** than a handful of REST routes for simple CRUD.
 
-The [REST API Mastery Path](https://sigilipelli.github.io/rest-api-mastery-path/) covers
+The [REST API Mastery Path](https://learnmasterypath.com/rest-api-mastery-path/) covers
 REST design in depth, including its own GraphQL-vs-REST comparison. This course assumes you
 have chosen GraphQL, or want to understand it well enough to choose; [Level 4 · 09](../level-4/09-architecture-review.md)
 returns to the decision with much more experience behind it.
@@ -223,8 +223,8 @@ The lessons use JavaScript on Node.js because the reference implementation, `gra
 is a JavaScript library and the most widely used servers build on it. The versions every
 example was run with are listed on each level's overview page. You don't need TypeScript
 until [Level 3 · 08](../level-3/08-codegen.md); if JavaScript itself is new, start with
-[JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) and
-[Node.js Mastery Path](https://sigilipelli.github.io/nodejs-mastery-path/).
+[JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/) and
+[Node.js Mastery Path](https://learnmasterypath.com/nodejs-mastery-path/).
 
 ## Exercise
 

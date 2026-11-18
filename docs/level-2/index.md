@@ -34,7 +34,7 @@ Three ideas carry this level:
 
 - **Level 1 of this course**: resolvers, context, mutations, errors, Apollo Server basics.
 - **Basic SQL**: `SELECT`, `JOIN`, `WHERE`, indexes and constraints. The
-  [SQL Mastery Path](https://sigilipelli.github.io/sql-mastery-path/) covers them.
+  [SQL Mastery Path](https://learnmasterypath.com/sql-mastery-path/) covers them.
 - Install: `npm install graphql @apollo/server @graphql-tools/schema dataloader graphql-scalars`.
 
 ## How the examples were checked

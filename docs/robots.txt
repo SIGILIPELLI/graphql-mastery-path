@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sigilipelli.github.io/graphql-mastery-path/sitemap.xml
+Sitemap: https://learnmasterypath.com/graphql-mastery-path/sitemap.xml

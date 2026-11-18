@@ -35,8 +35,8 @@ Three ideas carry this level:
 - **Levels 1–3 of this course.**
 - Comfort reading library source code — several lessons explain behaviour by pointing at it.
 - For lesson 7's Python half: Python 3.10+ (the
-  [Python Mastery Path](https://sigilipelli.github.io/python-mastery-path/) covers what's needed).
-- For architecture context, the [System Design Mastery Path](https://sigilipelli.github.io/system-design-mastery-path/).
+  [Python Mastery Path](https://learnmasterypath.com/python-mastery-path/) covers what's needed).
+- For architecture context, the [System Design Mastery Path](https://learnmasterypath.com/system-design-mastery-path/).
 
 ## How the examples were checked
 

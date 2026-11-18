@@ -34,9 +34,9 @@ Three ideas carry this level:
 
 - **Levels 1 and 2 of this course**, especially context, DataLoader and mutation payloads.
 - **Web security basics**: what CSRF and XSS are, how cookies and bearer tokens differ. The
-  [Cybersecurity Mastery Path](https://sigilipelli.github.io/cybersecurity-mastery-path/) covers them.
+  [Cybersecurity Mastery Path](https://learnmasterypath.com/cybersecurity-mastery-path/) covers them.
 - **TypeScript basics** for lesson 8 — see the
-  [TypeScript Mastery Path](https://sigilipelli.github.io/typescript-mastery-path/).
+  [TypeScript Mastery Path](https://learnmasterypath.com/typescript-mastery-path/).
 
 ## How the examples were checked
 
