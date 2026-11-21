@@ -57,9 +57,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -131,3 +133,5 @@ nav:
       - "08 · Beyond Apollo Server: GraphQL Yoga & graphql-js 17": level-4/08-yoga-graphql17.md
       - "09 · Architecture Review: When GraphQL Fits and When It Doesn't": level-4/09-architecture-review.md
       - "10 · Capstone — A Federated Storefront Graph": level-4/10-capstone.md
+  - "🎯 Final Quiz": quiz.md
+
