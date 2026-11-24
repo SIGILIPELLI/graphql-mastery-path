@@ -1,6 +1,6 @@
 ---
 title: "Free GraphQL Course: Schemas, Resolvers, DataLoader, Pagination, Auth, Subscriptions, Security & Federation"
-description: "Free GraphQL course: 40 lessons on schema design, resolvers, DataLoader, pagination, auth, subscriptions, cost limits and Apollo Federation."
+description: "Free GraphQL course: 36 lessons and 4 projects on schema design, resolvers, DataLoader, pagination, auth, subscriptions, cost limits and Apollo Federation."
 ---
 
 # GraphQL Mastery Path
